@@ -37,16 +37,18 @@ if(session_status() == PHP_SESSION_ACTIVE) {
 	//   given from the login page
 	if(!isset($_SESSION['name']) && !isset($_POST['username'])) {
 		// Redirect them to the login screen
-		echo "Redirecting to login...";
 		header("Location: login.php");
+		echo "Redirecting to login...";
 	}
 	// If there is a name recorded as in a session
 	if(isset($_SESSION['name'])) {
 
-		// increase the page visit counter
+		// Increase the page visit counter
 		$_SESSION['visits1']++;
 		echo "Hello, $_SESSION[name] you have visited this page $_SESSION[visits1] times before.<br>";
 		echo 'Click to see <a href="content2.php">more content</a>.<br>';
+		// It seemed like the best option to go with a logout page that redirects
+		//   to the login page for ease and clarity
 		echo "Click <a href=logout.php>here</a> to log out.";
 	}
 }

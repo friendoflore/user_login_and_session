@@ -6,8 +6,8 @@ Start: Tue, 28 Apr 2015 06:05:00 -0700
 End: Tue, 28 Apr 2015 07:45:00 -0700
 Tasks: Finished the multtable.php file portion of assignment. Spent the majority of the time validating the input to ensure values would work in a multiplication table. Creation of the multiplication table took around 30 minutes.
 
-Start: Tue, 28 Apr 2015 9:40:00 -0700
-End: Tue, 28 Apr 2015 00:00:00 -0700
-Tasks: Cleaned up multtable.php file for submission. ...
+Start: Tue, 28 Apr 2015 09:40:00 -0700
+End: Tue, 28 Apr 2015 12:44:00 -0700
+Tasks: Cleaned up multtable.php file for submission. Completed the loopback.php file, uploaded to GitHub repository. Completed the login.php portion of the assignment. The most difficult part of this portion was guarding the content pages from someone that wasn't logged in. This portion made me like and respect PHP a lot more. The sessions became very intuitive a lot faster than I was expecting, given how foreign they felt during the lecture.
 
 
