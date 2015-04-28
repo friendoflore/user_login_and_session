@@ -1,0 +1,13 @@
+Start: Mon, 27 Apr 2015 11:50:00 -0700
+End: Mon, 27 Apr 2015 12:33:00 -0700
+Tasks: Quickly realized that I needed to set up a server to interpret PHP code. I downloaded XAMPP, figured out how to open files using the localhost, where files need to be (by default) in order to use XAMPP in Chrome. After that, I was able to create a simple PHP file that passed values by GET and put the keys and values into a table.
+
+Start: Tue, 28 Apr 2015 06:05:00 -0700
+End: Tue, 28 Apr 2015 07:45:00 -0700
+Tasks: Finished the multtable.php file portion of assignment. Spent the majority of the time validating the input to ensure values would work in a multiplication table. Creation of the multiplication table took around 30 minutes.
+
+Start: Tue, 28 Apr 2015 9:40:00 -0700
+End: Tue, 28 Apr 2015 00:00:00 -0700
+Tasks: Cleaned up multtable.php file for submission. ...
+
+
